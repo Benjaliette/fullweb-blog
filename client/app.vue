@@ -6,4 +6,8 @@
 
 <script setup>
 const appConfig = useAppConfig();
+
+useHead({
+  title: appConfig.title,
+});
 </script>
